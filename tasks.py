@@ -120,7 +120,7 @@ def get_ffmpeg_binary(ctx):
         return
 
     # Download from Github
-    base_url = "https://github.com/imageio/imageio-binaries/raw/master/ffmpeg/"
+    base_url = "https://github.com/GallioPRO/imageio-binaries/raw/master/ffmpeg/"
     filename = os.path.join(ROOT_DIR, "imageio_ffmpeg", "binaries", fname)
     print("Downloading", fname, "...", end="")
     with urlopen(base_url + fname, timeout=5) as f1:
