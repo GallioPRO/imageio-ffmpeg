@@ -47,12 +47,12 @@ def _get_arch():
 
 # Platform string -> ffmpeg filename
 FNAME_PER_PLATFORM = {
-    "macos-aarch64": "ffmpeg-macos-aarch64-v7.1",
-    "macos-x86_64": "ffmpeg-macos-x86_64-v7.1",  # 10.9+
-    "windows-x86_64": "ffmpeg-win-x86_64-v7.1.exe",
+    "macos-aarch64": "ffmpeg-macos-aarch64-v6.0.0",
+    "macos-x86_64": "ffmpeg-macos-x86_64-v6.0.1",  # 10.9+
+    "windows-x86_64": "ffmpeg-win-x86_64-v6.0.0.exe",
 #   "windows-i686": "ffmpeg-win32-v4.2.2.exe",  # Windows 7+
-    "linux-aarch64": "ffmpeg-linux-aarch64-v7.0.2",  # Kernel 3.2.0+
-    "linux-x86_64": "ffmpeg-linux-x86_64-v7.0.2",
+    "linux-aarch64": "ffmpeg-linux-aarch64-v6.0.1",  # Kernel 3.2.0+
+    "linux-x86_64": "ffmpeg-linux-x86_64-v6.0.1",
 }
 
 osxplats = "macosx_10_9_intel.macosx_10_9_x86_64"
