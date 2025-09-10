@@ -2,7 +2,7 @@ import sys
 import platform
 
 
-__version__ = "0.6.0"
+__version__ = "6.0.1"
 
 
 def get_platform():
