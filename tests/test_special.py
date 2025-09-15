@@ -1,5 +1,4 @@
-""" Tests more special use-cases.
-"""
+"""Tests more special use-cases."""
 
 import gc
 import sys
